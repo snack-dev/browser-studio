@@ -1,7 +1,7 @@
 {
-  "name": "@diffusionstudio/core",
+  "name": "@snack-dev/browser-studio",
   "private": false,
-  "version": "1.6.0",
+  "version": "1.0.0",
   "type": "module",
   "description": "Build bleeding edge video processing applications",
   "files": [
@@ -52,13 +52,13 @@
     "pixi-filters": ">=6.0.0",
     "pixi.js": ">=8.0.0"
   },
-  "author": "Diffusion Studio GmbH",
+  "author": "Snack Software",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:diffusionstudio/core.git"
+    "url": "git@github.com:snack-dev/browser-studio.git"
   },
   "keywords": [
     "mp4",

@@ -1,27 +1,24 @@
 <br/>
 <p align="center">
   <img src="./assets/icon.png" alt="Library Icon" width="164" height="164" />
-  <h1 align="center">diffusionstudio/core</h1>
+  <h1 align="center">snack-dev/browser-studio</h1>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Made with-Typescript-blue?color=000000&logo=typescript&logoColor=ffffff" alt="Static Badge">
   <a href="https://vitejs.dev"><img src="https://img.shields.io/badge/Powered%20by-Vite-000000?style=flat&logo=Vite&logoColor=ffffff" alt="powered by vite"></a>
-  <a href="https://discord.com/invite/zPQJrNGuFB"><img src="https://img.shields.io/discord/1115673443141156924?style=flat&logo=discord&logoColor=fff&color=000000" alt="discord"></a>
-  <a href="https://x.com/diffusionhq"><img src="https://img.shields.io/badge/Follow for-Updates-blue?color=000000&logo=X&logoColor=ffffff" alt="Static Badge"></a>
-  <a href="https://www.ycombinator.com/companies/diffusion-studio"><img src="https://img.shields.io/badge/Combinator-F24-blue?color=000000&logo=ycombinator&logoColor=ffffff" alt="Static Badge"></a>
 </p>
 <br/>
 
 # Getting Started
 
-`@diffusionstudio/core` is an open-source, browser-based video editing library that allows developers to automate video editing workflows at scale, build custom editing applications, or seamlessly integrate video processing capabilities into existing projects.
+`@snack-dev/browser-studio` is an open-source, browser-based video editing library that allows developers to automate video editing workflows at scale, build custom editing applications, or seamlessly integrate video processing capabilities into existing projects.
 
 ## Documentation
 
-Visit https://docs.diffusion.studio to view the full documentation.
+Documentation TBD.
 
-## Why Use Diffusion Studio
+## Why Use Browser Studio
 💻 100% **client-side**<br/>
 📦 Fully **extensible** with [Pixi.js](https://pixijs.com/)<br/>
 🩸 Blazingly **fast** WebGPU/WebGL renderer<br/>
@@ -30,14 +27,14 @@ Visit https://docs.diffusion.studio to view the full documentation.
 ## Getting Started
 
 ```sh
-npm install @diffusionstudio/core
+npm install @snack-dev/browser-studio
 ```
 
 ## Basic Usage
 Let's take a look at an example:
 
 ```typescript
-import * as core from '@diffusionstudio/core';
+import * as core from '@snack-dev/browser-studio';
 
 const source = await core.VideoSource // convenience function for fetch -> blob -> file
   .from('https://diffusion-studio-public.s3.eu-central-1.amazonaws.com/videos/big_buck_bunny_1080p_30fps.mp4');
@@ -86,13 +83,13 @@ You can find more [examples here.](https://github.com/diffusionstudio/examples),
 
 https://github.com/user-attachments/assets/7a943407-e916-4d9f-b46a-3163dbff44c3
 
-## How does DS Core compare to Remotion and Motion Canvas?
+## How does BS Core compare to Remotion and Motion Canvas?
 
 **Remotion** is a React-based video creation tool that transforms the entire DOM into videos. It's particularly suited for beginners, as web developers can start creating videos using the skills they already have.
 
 **Motion Canvas** is intended as a standalone editor for creating production-quality animations. It features a unique imperative API that adds elements to the timeline procedurally, rather than relying on keyframes like traditional video editing tools. This makes Motion Canvas ideal for crafting detailed, animated videos.
 
-In contrast, **Diffusion Studio** is not a framework with a visual editing interface but a **video editing library** that can be integrated into existing projects. It operates entirely on the **client-side**, eliminating the need for additional backend infrastructure. Diffusion Studio is also dedicated to supporting the latest rendering technologies, including WebGPU, WebGL, and WebCodecs. If a feature you need isn't available, you can **easily extend** it using [Pixi.js](https://github.com/pixijs/pixijs).
+In contrast, **Browser Studio** is not a framework with a visual editing interface but a **video editing library** that can be integrated into existing projects. It operates entirely on the **client-side**, eliminating the need for additional backend infrastructure. Browser Studio is also dedicated to supporting the latest rendering technologies, including WebGPU, WebGL, and WebCodecs. If a feature you need isn't available, you can **easily extend** it using [Pixi.js](https://github.com/pixijs/pixijs).
 
 ## Current features
 * **Video/Audio** trim and offset

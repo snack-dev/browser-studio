@@ -75,7 +75,7 @@ await composition.add(
 
 await composition.add(
   new core.TextClip({
-    text: "Basic text in Diffusion Studio",
+    text: "Basic text in Browser Studio",
     stop: 120,
     textAlign: 'center',
     textBaseline: 'middle',

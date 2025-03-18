@@ -9,7 +9,7 @@ export default defineConfig(({ command }) => ({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
-      name: 'DiffusionStudio',
+      name: 'BrowserStudio',
       formats: ['es'],
       fileName: 'ds'
     },
